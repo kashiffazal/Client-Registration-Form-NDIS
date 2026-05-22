@@ -1,0 +1,42 @@
+.c_k_screenLoader_0 .container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background: #000000d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    width:100%;
+    margin: 0;
+    opacity: 1;
+    -webkit-transition: all 220ms;
+    -moz-transition: all 220ms;
+    -o-transition: all 220ms;
+    transition: all 220ms;
+    
+}
+.c_k_screenLoader_0 .hide{
+    opacity: 0;
+    visibility: hidden;
+    /* z-index:-999999; */
+}
+.c_k_screenLoader_0 .content{
+    color:#e96b28;
+    text-align: center;
+}
+.c_k_screenLoader_0 .label{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+

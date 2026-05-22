@@ -1,0 +1,121 @@
+.container{
+  border: 1px solid #ffc4a5;
+  width: 75%;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 5px #e5e5e5;
+}
+.form_heading{
+  color: #e96b28;
+  font-weight: 600;
+  font-size: 26px;
+}
+.form_hr{
+  border: 1px solid #e96b28;
+  border-style: dashed;
+  border-bottom: none;
+}
+
+/*Set help*/
+.help, .ant-form-explain{
+  color: #e96b28;
+  font-style: italic;
+  font-size: 12px;
+  /* font-weight: 500; */
+}
+/*Set Modal*/
+.ant-modal-content{
+    box-shadow: 0px 0px 100px #5d5d5d;
+    border: 1px solid #e96b28;
+    border-top: 4px solid #e96b28;
+    background: #fff7f3;
+}
+.ant-modal-header{
+  background: #fff7f3; 
+  border: none;
+}
+.ant-modal-body{padding-top: 0px;}
+.modalBody{
+  border: 1px solid #ffa779;
+    background: #fff;
+    padding: 10px;
+}
+
+
+/*Step dots styles*/
+.small_dot_steps .ant-steps-dot .ant-steps-item-content, .ant-steps-dot.ant-steps-small .ant-steps-item-content{width:0px}
+.small_dot_steps .ant-steps-dot .ant-steps-item-icon, .ant-steps-dot.ant-steps-small .ant-steps-item-icon{margin-left: 0px;}
+.small_dot_steps .ant-steps-label-vertical .ant-steps-item{padding: 0px 0.1%;}
+.ant-steps{display: block !important;text-align: center;margin: 16px 0px;}
+.small_dot_steps .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon, .ant-steps-dot.ant-steps-small .ant-steps-item-process .ant-steps-item-icon{width: 16px; height: 16px; position: relative; top: -3px; }
+.small_dot_steps .ant-steps-dot .ant-steps-item-tail, .ant-steps-dot.ant-steps-small .ant-steps-item-tail{ width:0% }
+.field_no_label{ margin-top:42px }
+.dynamic_class, .nested_class{ border-bottom:1px dashed #d8d8d8 }
+.dynamic_class2{
+  border: 1px dashed #d8d8d8;
+  background: #f9f9f9;
+  margin-bottom: 2px;
+  padding: 0px 10px;
+}
+
+.row-small .ant-col .ant-row{
+  /* border:1px solid red; */
+  margin-bottom:10px
+}
+
+
+.thank_you_container{
+  /* border:1px solid red; */
+  text-align:center;
+}
+.thank_you_container .icon{
+  font-size: 74px !important;
+  color: #58a314;
+}
+.thank_you_container p{
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.msg_box{
+  border-top: 1px dashed #e96b28;
+  border-bottom: 1px dashed #e96b28;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+
+.thank_you_list{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+}
+.thank_you_list li{
+  font-size: 18px;
+}
+
+/*Ant custom*/
+.long_label .ant-form-item-label{
+  line-height: unset;
+  white-space: unset;
+  text-align: unset;
+  margin-bottom: 10px;
+}
+.long_checkbox_label .ant-col label > span:last-child{
+  display: inline-block;
+  width: 96%;
+  line-height: 20px;
+  float: right;
+  margin-top: 8px;
+}
+.long_checkbox_label .ant-col .ant-form-explain{
+  padding-left: 2.7%;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  .container{width:100%;}
+}
